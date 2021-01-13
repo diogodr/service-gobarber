@@ -1,4 +1,3 @@
-import { v4 as uuid } from 'uuid';
 import { 
   Entity, 
   Column, 
@@ -31,8 +30,6 @@ class Appointment {
 
   @UpdateDateColumn()
   updated_at: Date;
-  
-  apdated_at: Date;
 }
 
 export default Appointment;
